@@ -98,7 +98,7 @@
         </div>
 
         <div class="graph1">
-            graph1
+            <script type="text/javascript" src="grapher.js"></script>
         </div>
 
         <div class="graph2">
