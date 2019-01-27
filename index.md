@@ -156,7 +156,7 @@
 
         <div class="head2"> Trends caused by the death of a singer </div>
 
-        <div id="Avicii2></div>
+        <div id="Avicii2"></div>
         <div id="Avicii"><!-- Avicii --></div> 
         <div class= "trend">We wanted to see if there were any trends that would appear due to the death of certain singers, and sure enough there were. Avicii died April 20th 2018 and on the graph we can see a rise in the number of plays around this time of the year. </div>
         
