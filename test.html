@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Plotly.js -->
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    
+  <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
+    
+    
+    
+    
+    
+  <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>    
+  <script>
+
+var arr = new Array(365);
+for(i=0;i<365;i++){
+    arr[i]=i;
+}
+      
+var trace1 = {
+  x: arr,
+  y: arr,
+  fill: 'tozeroy',
+  type: 'scatter'
+};
+
+
+
+var data1 = [trace1];
+
+Plotly.newPlot('myDiv1', data1);
+      
+      
+      
+      
+      
+
+
+var data2 = [{
+  x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  y: [20, 14, 23, 123, 12, 65, 14, 65, 75, 80, 98,123],
+  type: 'bar'
+}];
+
+Plotly.newPlot('myDiv2', data2, {}, {showSendToCloud:true});
+
+      
+      
+      
+      
+</script>
+
+</body>
+</html>
+
+
