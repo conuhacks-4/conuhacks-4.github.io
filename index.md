@@ -111,6 +111,11 @@
                 font-weight: 400;
                 text-transform: uppercase;
                 text-align: center;
+                grid-column: 1/span 2;
+            }
+
+            .row {
+                grid-template-rows: 450px
             }
         
 
@@ -143,10 +148,11 @@
         The release of the movie "Bohemian Rhapsody", on octorber 24th 2018, clearly caused an incredible peak in the number of times people would play Queen's songs. This comes as no suprise as the band had probably the best form of media to spark nostalgia to the old fans and intrest in new fans. Add this with the fact that they are already substancially more popular than most rock bands, and you end up with a graph like this.
         </div>
         
-
+        <div class="row">
         <div id="Avicii"><!-- Avicii --></div> 
 
         <div class= "trend2">trend</div>
+        </div>
 
         <div class="head2"> Trends caused by the death of a singer </div>
         <div id="Aretha"><!-- Aretha --></div> 
