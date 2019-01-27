@@ -97,6 +97,8 @@ var data3 = [{
   }];
 
   var layout4 = {
+    width=527,
+    height=450,
     title: {
       text:'Van Halen',
       font: {
@@ -135,6 +137,8 @@ var data3 = [{
   }];
 
   var layout5 = {
+    width=527,
+    height=450,
     title: {
       text:'Avicii',
       font: {
@@ -174,6 +178,8 @@ var data3 = [{
   }];
 
   var layout6 = {
+    width=527,
+    height=450,
     title: {
       text:'Aretha',
       font: {
