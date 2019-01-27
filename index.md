@@ -48,11 +48,11 @@
             }
 
             .header {
-                font-size: 32px
+                font-size: 32px;
                 text-align: center;
                 grid-column: 1/span 2;
                 background-color: green;
-                
+
             }
         
         </style>
