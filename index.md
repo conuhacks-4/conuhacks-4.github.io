@@ -48,11 +48,18 @@
             }
 
             .header {
-                font-size: 32px;
+                font-size: 80px;
                 text-align: center;
                 grid-column: 1/span 3;
                 background-color: green;
+                font-family: sans-serif;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
 
+            .subheader {
+                font-size: 32px;
+                font-weight: 400;
             }
         
         </style>
@@ -62,7 +69,15 @@
 
 
     <body>
-        <div class="header"> Welcome to the TouchTunes Bohemian Rhapsody Comparer </div>
+        <div class="header"> 
+            TouchTunes 
+        <div class="subheader">
+        Bohemian Rhapsody Trends
+        </div>
+
+
+        
+        </div>
 
         
     </body>
