@@ -22,3 +22,11 @@ var data2 = [{
 }];
 
 Plotly.newPlot('myDiv2', data2, {}, {showSendToCloud:true});
+
+var data3 = [{
+    x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    y: [5578,5885,6769,5262,6059,6127,5668,6394,6209,7229,14153,14198],
+    type: 'bar'
+  }];
+
+  Plotly.newPlot('myDiv3', data3, {}, {showSendToCloud:true});
