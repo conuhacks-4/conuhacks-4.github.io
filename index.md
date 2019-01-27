@@ -131,7 +131,7 @@
         <div class="header"> 
             TouchTunes 
         <div class="subheader">
-        Bohemian Rhapsody Trends
+            Analysing trends of 2018
         </div>
         </div>
 
