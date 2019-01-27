@@ -89,7 +89,7 @@
             }
 
             #VH {
-
+                grid-column: 1;
             }
 
             #Avicii{
@@ -116,19 +116,26 @@
         </div>
 
         <div id="VH"><!-- Van Halen --></div> 
-        
+        <div class="trend2"> <h3> Control Data</h3>
+            <p>As we can see, Van Halen being a considerably popular rock band and having easy "go to" songs at any time of the year, they appear to have a particularly constant trend of being played in bars and places of the sort. Their songs are classics of the past and will remain so for years to come, so they won't tend to have any drastic changes unless they get affected by the popular media, as we will see for these next trends.
+        </div>
+
+        <h4> Movies </h4>
         <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
         <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
-        <div class="trend"> trend </div> 
-
         <div id="myDiv3"><!-- Bohemian --></div>   
 
-        <div class="trend"> trend </div>
-
+        <div class="trend"> 
+        The release of the movie "Bohemian Rhapsody" clearly caused an incredible peak in the number of times people would play Queen's songs. This comes as no suprise as the band had probably the best form of media to spark nostalgia to the old fans and intrest in new fans. Add this with the fact that they are already substancially more popular than most rock bands, and you end up with a graph like this.
+        </div>
         
 
         <div id="Avicii"><!-- Avicii --></div> 
+
+        <div class= "trend2">trend</div>
+
+        <div id="Aretha"><!-- Aretha --></div> 
 
         <script src="grapher.js"></script>
         
