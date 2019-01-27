@@ -40,7 +40,7 @@ var trace1 = {
   type: 'scatter'
 };
 var data1 = [trace1];
-Plotly.newPlot('myDiv1', data1, layout1);
+Plotly.newPlot('myDiv1', data1);
       
 
 var data2 = [{
@@ -50,7 +50,7 @@ var data2 = [{
 }];
 
 
-Plotly.newPlot('myDiv2', data2, layout1, {}, {showSendToCloud:true});
+Plotly.newPlot('myDiv2', data2, {}, {showSendToCloud:true});
 
 var data3 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
