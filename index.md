@@ -97,15 +97,15 @@
         </div>
         </div>
 
-        <div class="graph1>
+        <div class="graph1">
             graph1
         </div>
 
-        <div class="graph2>
+        <div class="graph2">
             graph2
         </div>
 
-        <div class="graph3>
+        <div class="graph3">
             graph3
         </div>
 
