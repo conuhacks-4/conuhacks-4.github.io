@@ -97,6 +97,7 @@ var data3 = [{
   }];
 
   var layout4 = {
+    autosize=False,
     width=527,
     height=450,
     title: {
@@ -137,6 +138,7 @@ var data3 = [{
   }];
 
   var layout5 = {
+    autosize=False,
     width=527,
     height=450,
     title: {
@@ -178,6 +180,7 @@ var data3 = [{
   }];
 
   var layout6 = {
+    autosize=False,
     width=527,
     height=450,
     title: {
