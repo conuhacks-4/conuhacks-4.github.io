@@ -111,13 +111,13 @@
 
         <div class="trend"> trend </div> 
 
-        <div id="myDiv3"><!-- Plotly chart will be drawn inside this DIV --></div>   
+        <div id="myDiv3"><!-- Bohemian --></div>   
 
         <div class="trend"> trend </div>
 
-        <div class="graph3">
-            graph3
-        </div>
+        <div id="myDiv4"><!-- Van Halen --></div> 
+
+        <div id="myDiv5"><!-- Avicii --></div> 
 
         <script src="grapher.js"></script>
         
