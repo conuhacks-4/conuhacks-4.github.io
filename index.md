@@ -98,12 +98,15 @@
         </div>
 
         <div class="graph1>
+            graph1
         </div>
 
         <div class="graph2>
+            graph2
         </div>
 
         <div class="graph3>
+            graph3
         </div>
 
         
