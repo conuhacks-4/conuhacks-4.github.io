@@ -30,3 +30,19 @@ var data3 = [{
   }];
 
   Plotly.newPlot('myDiv3', data3, {}, {showSendToCloud:true});
+
+  var data4 = [{
+    x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    y: [28367,29428,33491,29877,32647,32579,29777,32917,30202,32049,28848,33600],
+    type: 'bar'
+  }];
+
+  Plotly.newPlot('myDiv4', data4, {}, {showSendToCloud:true});
+
+  var data5 = [{
+    x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    y: [7800,7468,8213,10077,10792,9368,8294,8535,7503,7381,6238,7582],
+    type: 'bar'
+  }];
+
+  Plotly.newPlot('myDiv5', data5, {}, {showSendToCloud:true});
