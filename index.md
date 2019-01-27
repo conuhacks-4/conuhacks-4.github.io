@@ -45,7 +45,7 @@
                 width: 100%;
                 margin: auto;
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
                 grid-gap: 24px 24px;
                 padding-top: 25px;
             }
@@ -53,7 +53,7 @@
             .header {
                 font-size: 80px;
                 text-align: center;
-                grid-column: 1/span 3;
+                grid-column: 1/span 2;
                 background-image: url("static/concert.jpg");
                 font-family: sans-serif;
                 font-weight: 900;
@@ -69,25 +69,19 @@
             }
 
             #myDiv1 {
-                grid-column: 1/span 2;
-                margin-top: 30px;
-                margin-bottom: 30px;
+                grid-column: 1;
             }
 
             .trend {
-                grid-column: 3;
+                grid-column: 1/span 2;
             }
 
             #myDiv2 {
-                grid-column: 1/span 2;
-                margin-top: 30px;
-                margin-bottom: 30px;
+                grid-column: 2;
             }
 
             .graph3 {
-                grid-column: 3;
-                margin-top: 30px;
-                margin-bottom: 30px;
+                grid-column: 1;
             }
         
         </style>
