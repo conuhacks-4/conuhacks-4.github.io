@@ -33,7 +33,7 @@
                 margin: auto;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: 168px 450px auto 450px 450px 136px 450px 450px;
+                grid-template-rows: 210px;
                 grid-gap: 24px 24px;
                 padding-top: 25px;
             }
