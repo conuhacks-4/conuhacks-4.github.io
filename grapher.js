@@ -37,7 +37,7 @@ var data3 = [{
     type: 'bar'
   }];
 
-  Plotly.newPlot('myDiv4', data4, {}, {showSendToCloud:true});
+  Plotly.newPlot('VH', data4, {}, {showSendToCloud:true});
 
   var data5 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -45,4 +45,39 @@ var data3 = [{
     type: 'bar'
   }];
 
-  Plotly.newPlot('myDiv5', data5, {}, {showSendToCloud:true});
+  var layout = {
+    title: {
+      text:'Van Halen',
+      font: {
+        family: 'Courier New, monospace',
+        size: 24
+      },
+      xref: 'paper',
+      x: 0.05,
+    },
+    xaxis: {
+      title: {
+        text: 'x Axis',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      },
+    },
+    yaxis: {
+      title: {
+        text: 'y Axis',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      }
+    }
+  };
+  
+
+  Plotly.newPlot('Avicii', data5, layout, {showSendToCloud:true});
+
+  
