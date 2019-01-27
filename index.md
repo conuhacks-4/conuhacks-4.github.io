@@ -51,7 +51,7 @@
                 font-size: 80px;
                 text-align: center;
                 grid-column: 1/span 3;
-                background-image: url("static/touchtune.png");
+                background-image: url("static/concert.jpg");
                 font-family: sans-serif;
                 font-weight: 900;
                 text-transform: uppercase;
