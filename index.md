@@ -55,6 +55,9 @@
                 font-family: sans-serif;
                 font-weight: 900;
                 text-transform: uppercase;
+                text-transform: uppercase;
+                background-position: 0px 290px;
+                background-size: cover;
             }
 
             .subheader {
