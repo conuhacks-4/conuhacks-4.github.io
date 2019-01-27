@@ -118,8 +118,9 @@
                 grid-column: 1/span 2;
             }
 
-            .row {
-                grid-template-rows: 450px
+            .col {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
             }
         
 
@@ -159,8 +160,10 @@
         
 
         <div class="head2"> Trends caused by the death of a singer </div>
-        <div id="Aretha"><!-- Aretha --></div> 
-        <div id="Aretha2"></div>
+        <div class="col">
+            <div id="Aretha"><!-- Aretha --></div> 
+            <div id="Aretha2"></div>
+        </div>
         <div class="trend"> 
         This graph is particularly interesting because you can see that a singer can go completely unnoticed until something drastic happens. When Aretha Franklin died on august 16th 2018, you can clearly see people have chosen to play her songs almost 4 times as much as before. This is a comprehensible movement that went towards paying respects to the singer by playing her songs. The peak must have also been caused by the high media coverage that drew people to listen to her music when they normally wouldn't.
         </div>
