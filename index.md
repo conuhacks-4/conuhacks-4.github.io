@@ -39,10 +39,10 @@
             }
 
             .inner {
-                width: 90%;
+                width: 100%;
                 margin: auto;
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
                 grid-gap: 24px 24px;
                 padding-top: 25px;
             }
@@ -50,7 +50,7 @@
             .header {
                 font-size: 32px;
                 text-align: center;
-                grid-column: 1/span 2;
+                grid-column: 1/span 3;
                 background-color: green;
 
             }
