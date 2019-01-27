@@ -104,6 +104,14 @@
                 text-transform: uppercase;
                 padding-left: 30px;
             }
+
+            .head2 {
+                font-family: sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-align: center;
+            }
         
 
         </style>
@@ -132,7 +140,7 @@
         <div id="myDiv3"><!-- Bohemian --></div>   
 
         <div class="trend"> 
-        The release of the movie "Bohemian Rhapsody" clearly caused an incredible peak in the number of times people would play Queen's songs. This comes as no suprise as the band had probably the best form of media to spark nostalgia to the old fans and intrest in new fans. Add this with the fact that they are already substancially more popular than most rock bands, and you end up with a graph like this.
+        The release of the movie "Bohemian Rhapsody", on octorber 24th 2018, clearly caused an incredible peak in the number of times people would play Queen's songs. This comes as no suprise as the band had probably the best form of media to spark nostalgia to the old fans and intrest in new fans. Add this with the fact that they are already substancially more popular than most rock bands, and you end up with a graph like this.
         </div>
         
 
@@ -140,7 +148,12 @@
 
         <div class= "trend2">trend</div>
 
+        <div class="head2"> Trends caused by the death of a singer </div>
         <div id="Aretha"><!-- Aretha --></div> 
+        <div class="trend"> 
+        This graph is particularly interesting because you can see that a singer can go completely unnoticed until something drastic happens. When Aretha Franklin died on august 16th 2018, you can clearly see people have chosen to play her songs almost 4 times as much as before. This is a comprehensible movement that went towards paying respects to the singer by playing her songs. The peak must have also been caused by the high media coverage that drew people to listen to her music when they normally wouldn't.
+        </div>
+
 
         <script src="grapher.js"></script>
         
