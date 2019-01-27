@@ -2,6 +2,9 @@
 <html>
     <head>
         <title> Our Website </title>
+        <script <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="grapher.js"></script>
+
         <style>
             h1, h2, h3 {
             font-family: sans-serif;
@@ -65,14 +68,18 @@
                 font-weight: 400;
             }
 
-            #graph1 {
-                grid-column: 1;
+            #myDiv1 {
+                grid-column: 1/span 2;
                 margin-top: 30px;
                 margin-bottom: 30px;
             }
 
-            .graph2 {
-                grid-column: 2;
+            .trend {
+                grid-column: 3;
+            }
+
+            #myDiv2 {
+                grid-column: 1/span 2;
                 margin-top: 30px;
                 margin-bottom: 30px;
             }
@@ -97,17 +104,13 @@
         </div>
         </div>
 
-        <div id="graph1"></div>
-        
-        <script src="grapher.js">
-        
-        document.getElementById("demo").innerHTML = readTextFile(file://hello.txt);
-        
-        </script> 
+        <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
 
-        <div class="graph2">
-            graph2
-        </div>
+        <div class="trend"> trend </div>
+
+        <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>    
+
+        <div class="trend"> trend </div>
 
         <div class="graph3">
             graph3
