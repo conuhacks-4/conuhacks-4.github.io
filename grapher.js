@@ -205,7 +205,7 @@ var data3 = [{
 
   var layout6 = {
     title: {
-      text:'Aretha',
+      text:'Aretha Franklin',
       font: {
         family: 'Courier New, monospace',
         size: 24
