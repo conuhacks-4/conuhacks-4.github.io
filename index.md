@@ -150,13 +150,11 @@
         The release of the movie "Bohemian Rhapsody", on octorber 24th 2018, clearly caused an incredible peak in the number of times people would play Queen's songs. This comes as no suprise as the band had probably the best form of media to spark nostalgia to the old fans and intrest in new fans. Add this with the fact that they are already substancially more popular than most rock bands, and you end up with a graph like this.
         </div>
         
-        
-        <div id="Avicii"><!-- Avicii --></div> 
-
-        <div class= "trend">trend</div>
-        
 
         <div class="head2"> Trends caused by the death of a singer </div>
+
+        <div id="Avicii"><!-- Avicii --></div> 
+        <div class= "trend">We wanted to see if there were any trends that would appear due to the death of certain signers, and sure enough there were. Avicii died April 20th 2018 and on the graph we can see a rise in the number of plays around this time of the year. </div>
         
         <div id="Aretha2"></div>
         <div id="Aretha"><!-- Aretha --></div> 
