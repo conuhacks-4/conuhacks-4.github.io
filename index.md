@@ -99,10 +99,9 @@
         </div>
 
         <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
+        <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
-        <div class="trend"> trend </div>
-
-        <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>    
+        <div class="trend"> trend </div> 
 
         <div class="trend"> trend </div>
 
