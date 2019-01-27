@@ -50,7 +50,7 @@ var data2 = [{
 }];
 
 
-Plotly.newPlot('myDiv2', data2, layout1, {showSendToCloud:true});
+Plotly.newPlot('myDiv2', data2, layout1, {}, {showSendToCloud:true});
 
 var data3 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -88,7 +88,7 @@ var data3 = [{
     }
   };
 
-  Plotly.newPlot('myDiv3', data3, layout3, {showSendToCloud:true});
+  Plotly.newPlot('myDiv3', data3, layout3, {}, {showSendToCloud:true});
 
   var data4 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -126,7 +126,7 @@ var data3 = [{
     }
   };
 
-  Plotly.newPlot('VH', data4, layout4, {showSendToCloud:true});
+  Plotly.newPlot('VH', data4, layout4, {}, {showSendToCloud:true});
 
   var data5 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -165,7 +165,7 @@ var data3 = [{
   };
   
 
-  Plotly.newPlot('Avicii', data5, layout5, {showSendToCloud:true});
+  Plotly.newPlot('Avicii', data5, layout5, {}, {showSendToCloud:true});
 
   var data6 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -204,6 +204,6 @@ var data3 = [{
   };
   
 
-  Plotly.newPlot('Aertha', data6, layout6, {showSendToCloud:true});
+  Plotly.newPlot('Aretha', data6, layout6, {}, {showSendToCloud:true});
 
   
