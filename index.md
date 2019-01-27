@@ -56,14 +56,7 @@
     <body>
         <div> Welcome to the TouchTunes Bohemian Rhapsody Comparer </div>
 
-        <script> 
-            //var text = 
-
-            //obj = JSON.parse(text);
-            //document.getElementById("demo").innerHTML =
-            //obj.employees[1].firstName + " " + obj.employees[1].lastName;
-        </script>
-
+        
     </body>
 
 </hmtl>
