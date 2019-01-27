@@ -23,7 +23,7 @@ var layout1 = {
     },
     yaxis: {
       title: {
-        text: 'number of plays',
+        text: 'number of plays per day',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -40,7 +40,37 @@ var trace1 = {
   type: 'scatter'
 };
 var data1 = [trace1];
-Plotly.newPlot('myDiv1', data1);
+Plotly.newPlot('myDiv1', data1, layout1);
+
+var layout2 = {
+    title: {
+      text:'Queen',
+      font: {
+        family: 'Courier New, monospace',
+        size: 24
+      },
+    },
+    xaxis: {
+      title: {
+        text: 'month of the year',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      },
+    },
+    yaxis: {
+      title: {
+        text: 'sum of the number of plays',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      }
+    }
+  };
       
 
 var data2 = [{
@@ -50,7 +80,7 @@ var data2 = [{
 }];
 
 
-Plotly.newPlot('myDiv2', data2, {}, {showSendToCloud:true});
+Plotly.newPlot('myDiv2', data2, layout2, {}, {showSendToCloud:true});
 
 var data3 = [{
     x: ['January', 'February', 'March', "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -78,7 +108,7 @@ var data3 = [{
     },
     yaxis: {
       title: {
-        text: 'number of plays',
+        text: 'sum of the number of plays',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -116,7 +146,7 @@ var data3 = [{
     },
     yaxis: {
       title: {
-        text: 'number of plays',
+        text: 'sum of the number of plays',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -154,7 +184,7 @@ var data3 = [{
     },
     yaxis: {
       title: {
-        text: 'number of plays',
+        text: 'sum of the number of plays',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -193,7 +223,7 @@ var data3 = [{
     },
     yaxis: {
       title: {
-        text: 'number of plays',
+        text: 'sum of the number of plays',
         font: {
           family: 'Courier New, monospace',
           size: 18,
