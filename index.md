@@ -51,7 +51,7 @@
                 font-size: 80px;
                 text-align: center;
                 grid-column: 1/span 3;
-                background-color: green;
+                background-image: url("static/touchtune.png");
                 font-family: sans-serif;
                 font-weight: 900;
                 text-transform: uppercase;
