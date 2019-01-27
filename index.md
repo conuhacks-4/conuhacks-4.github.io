@@ -74,6 +74,10 @@
 
             .trend {
                 grid-column: 1/span 2;
+                text-align: center;
+                margin: 5px 50px;
+                background-color: #ccccff;
+                padding: 20px;
             }
 
             #myDiv2 {
