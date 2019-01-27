@@ -65,7 +65,7 @@
                 font-weight: 400;
             }
 
-            .graph1 {
+            #graph1 {
                 grid-column: 1;
                 margin-top: 30px;
                 margin-bottom: 30px;
@@ -97,10 +97,13 @@
         </div>
         </div>
 
-        <div class="graph1">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script type="text/javascript" src="grapher.js"></script>
-        </div>
+        <div id="graph1"></div>
+        
+        <script src="grapher.js">
+        
+        document.getElementById("demo").innerHTML = readTextFile(file://hello.txt);
+        
+        </script> 
 
         <div class="graph2">
             graph2
