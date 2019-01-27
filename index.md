@@ -84,6 +84,10 @@
                 grid-column: 2;
             }
 
+            #myDiv3 {
+                grid-column: 1/ span 2;
+            }
+
             .graph3 {
                 grid-column: 1;
             }
@@ -106,6 +110,8 @@
         <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
         <div class="trend"> trend </div> 
+
+        <div id="myDiv3"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
         <div class="trend"> trend </div>
 
