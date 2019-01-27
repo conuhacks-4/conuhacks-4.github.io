@@ -2,8 +2,8 @@
 <html>
     <head>
         <title> Our Website </title>
-        <script <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <script src="grapher.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        
 
         <style>
             h1, h2, h3 {
@@ -116,6 +116,7 @@
             graph3
         </div>
 
+        <script src="grapher.js"></script>
         
     </body>
 
