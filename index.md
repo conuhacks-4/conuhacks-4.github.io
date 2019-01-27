@@ -88,10 +88,19 @@
                 grid-column: 1/ span 2;
             }
 
+            #VH {
+
+            }
+
+            #Avicii{
+
+            }
+
             .graph3 {
                 grid-column: 1;
             }
         
+
         </style>
 
 
@@ -106,6 +115,8 @@
         </div>
         </div>
 
+        <div id="VH"><!-- Van Halen --></div> 
+        
         <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
         <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
@@ -115,9 +126,9 @@
 
         <div class="trend"> trend </div>
 
-        <div id="myDiv4"><!-- Van Halen --></div> 
+        
 
-        <div id="myDiv5"><!-- Avicii --></div> 
+        <div id="Avicii"><!-- Avicii --></div> 
 
         <script src="grapher.js"></script>
         
