@@ -46,6 +46,14 @@
                 grid-gap: 24px 24px;
                 padding-top: 25px;
             }
+
+            .header {
+                font-size: 32px
+                text-align: center;
+                grid-column: 1/span 2;
+                background-color: green;
+                
+            }
         
         </style>
 
@@ -54,7 +62,7 @@
 
 
     <body>
-        <div> Welcome to the TouchTunes Bohemian Rhapsody Comparer </div>
+        <div class="header"> Welcome to the TouchTunes Bohemian Rhapsody Comparer </div>
 
         
     </body>
