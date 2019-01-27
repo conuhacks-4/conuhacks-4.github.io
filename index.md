@@ -82,6 +82,7 @@
 
             .trend2 {
                 grid-column: 2;
+                padding: 50px;
             }
 
             #Avicii{
@@ -94,6 +95,14 @@
 
             #Aretha {
                 grid-column: 1/span 2;
+            }
+
+            .head {
+                font-family: sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding-left: 30px;
             }
         
 
@@ -116,7 +125,7 @@
             As we can see, Van Halen being a considerably popular rock band and having easy "go to" songs at any time of the year, they appear to have a particularly constant trend of being played in bars and places of the sort. Their songs are classics of the past and will remain so for years to come, so they won't tend to have any drastic changes unless they get affected by the popular media, as we will see for these next trends.
         </div>
 
-        <h3> Movies </h3>
+        <div class="head"> Movies </div>
         <div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div>
         <div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>   
 
