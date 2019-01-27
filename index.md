@@ -64,6 +64,24 @@
                 font-size: 32px;
                 font-weight: 400;
             }
+
+            .graph1 {
+                grid-column: 1;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .graph2 {
+                grid-column: 3;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .graph3 {
+                grid-column: 3;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
         
         </style>
 
@@ -77,9 +95,15 @@
         <div class="subheader">
         Bohemian Rhapsody Trends
         </div>
+        </div>
 
+        <div class="graph1>
+        </div>
 
-        
+        <div class="graph2>
+        </div>
+
+        <div class="graph3>
         </div>
 
         
