@@ -72,7 +72,7 @@
             }
 
             .graph2 {
-                grid-column: 3;
+                grid-column: 2;
                 margin-top: 30px;
                 margin-bottom: 30px;
             }
