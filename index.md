@@ -21,19 +21,6 @@
                 background: #2a2a2a;
             }
 
-            .background {
-                background-image: linear-gradient(white, transparent 70%), url('');
-                background-size: 100% 100%;
-                background-position: 0% 0%;
-                background-blend-mode: screen; /* so many of them */
-
-                position: absolute;
-                width: 100%;
-                height: 200px;
-                left: 0;
-                bottom: 0;
-            }
-
             .outer {
                 width: 80%;
                 margin: auto;
@@ -46,6 +33,7 @@
                 margin: auto;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                grid-template-rows: 168px 450px 45px 450px 450px 136px 450px 450px;
                 grid-gap: 24px 24px;
                 padding-top: 25px;
             }
