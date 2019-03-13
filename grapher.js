@@ -13,7 +13,7 @@ var layout1 = {
     },
     xaxis: {
       title: {
-        text: 'month of the year',
+        text: 'days of the year',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -246,7 +246,7 @@ var data3 = [{
     },
     xaxis: {
       title: {
-        text: 'month of the year',
+        text: 'days of the year',
         font: {
           family: 'Courier New, monospace',
           size: 18,
@@ -285,7 +285,7 @@ Plotly.newPlot('Avicii2', data8, layout8);
     },
     xaxis: {
       title: {
-        text: 'month of the year',
+        text: 'days of the year',
         font: {
           family: 'Courier New, monospace',
           size: 18,
